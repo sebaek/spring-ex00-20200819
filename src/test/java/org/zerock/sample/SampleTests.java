@@ -22,6 +22,7 @@ public class SampleTests {
 	@Test
 	public void testExist() {
 		assertNotNull(restaurant);
+		assertNotNull(restaurant.getChef());
 	}
 
 }
