@@ -28,6 +28,7 @@ public class SampleTests {
 		log.warn("warn");
 		log.debug("debug");
 		log.error("error");
+		log.fatal("fatal");
 	}
 
 }
