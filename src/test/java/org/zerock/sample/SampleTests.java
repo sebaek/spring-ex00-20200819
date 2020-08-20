@@ -23,6 +23,15 @@ public class SampleTests {
 	public void testExist() {
 		assertNotNull(restaurant);
 		assertNotNull(restaurant.getChef());
+		
+		log.info("info");
+		log.warn("warn");
+		log.debug("debug");
+		log.error("error");
 	}
 
 }
+
+
+
+
